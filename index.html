@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">HR.</div>
+        <ul class="center-nav">
+           <li><a href="#Home" class="active">Home</a></li>
+           <li><a href="#About Me">About Me</a></li>
+           <li><a href="#Services">Services</a></li>
+           <li><a href="#Skills">Skills</a></li>
+           <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+        <button class="hireBtn">Hire Me</button>
+        <button onclick="toggleMenu()" class="hamMenu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <main>
+        <section id="Home" class="hero-page">
+            <div class="hero-left">
+                <div class="main-text">
+                    <span>Hi, I am</span>
+                    <p>Huzaifa Rehman</p>
+                    <h1>Web Developer</h1>
+                </div>
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="buttons">
+                    <button class="hireBtn">Hire Me</button>
+                    <button class="downCV">Downlaod CV</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="IMG-20230312-WA0045.jpg">
+            </div>
+        </section>
+<!-- About Me Section -->
+        <section id="About Me" class="about-page">
+            <div class="heading">
+                <h1>About Me</h1>
+                <p>Crafting seamless digital experiences with clean code and creative design.</p>
+            </div>
+            <div class="details">
+                <img src="IMG-20230312-WA0045.jpg">
+                <div class="content">
+                    <p class="info">Hi, My name is Huzaifa and I’m 19 years old. I’m a Web Developer, UI/UX Designer, and Video Editor with a passion for creating digital experiences that blend functionality with creativity. I enjoy coding in VS Code, exploring new design ideas, and working with different editing tools to bring concepts to life. Currently studying at university, I’m continuously learning and improving my skills in web development and design. No matter the size of the project, I dedicate my full effort to delivering work that’s clean, user-friendly, and impactful. My goal is to combine creativity with technical expertise to create digital solutions that leave a lasting impact. Whether it’s designing clean UI, coding efficient systems, or editing engaging videos, I put my full effort into everything I do.</p>
+                <button class="cvBtn"><i class="fa-solid fa-file"></i>Downlaod CV</button>
+                </div>
+            </div>
+        </section>
+<!-- Services Section -->
+ <section id="Services" class="service-page">
+    <div class="service-heading">
+                <h1>Services</h1>
+                <p>Turning ideas into websites, designs, and videos.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-info">
+                        <i class="fa-solid fa-code"></i>
+                        <p class="service-name">Coding</p>
+                        <p class="service-info">I help bring your vision online with code that’s simple, effective, and optimized. Whether it’s the frontend or backend, I deliver solutions that perform.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <i class="fa-solid fa-palette"></i>
+                        <p class="service-name">UI/UX Designer</p>
+                        <p class="service-info">I design clean, modern, and user-friendly interfaces that focus on both beauty and functionality. My goal is to create seamless digital experiences that connect with users.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <i class="fa-solid fa-camera-retro"></i>
+                        <p class="service-name">Video Editing</p>
+                        <p class="service-info">I craft engaging and polished videos that tell a story and capture attention. From cuts to effects, I bring creativity and precision to every project.</p>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="card-info">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <p class="service-name">Responsive Design</p>
+                        <p class="service-info">I create websites that look and work perfectly on any device, from desktop to mobile. With adaptive layouts and smooth user experience, your site stays consistent everywhere.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <i class="fa-brands fa-square-js"></i>
+                        <p class="service-name">JavaScript Development</p>
+                        <p class="service-info">I build interactive and dynamic features using JavaScript to make websites more engaging and functional. From animations to complex logic, I bring ideas to life with code.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                       <i class="fa-solid fa-star-and-crescent"></i>
+                        <p class="service-name">Animation Expert</p>
+                        <p class="service-info">I create smooth, engaging, and eye-catching animations that enhance user experience. From subtle transitions to dynamic effects, I bring websites and visuals to life with motion.</p>
+                    </div>
+                </div>
+            </div>
+ </section>
+ <!-- Skills Section -->
+  <section id="Skills" class="skills-page">
+    <div class="skills-heading">
+                <h1>Skills</h1>
+                <p>Skilled in building responsive, user-friendly, and efficient websites with clean code.</p>
+            </div>
+            <div class="slides">
+                <div class="slide-group">
+                    <img src="html.png">
+                    <img src="css.png">
+                    <img src="js.png">
+                    <img src="animejs.png">
+                    <img src="github.png">
+                    <img src="figma.png">
+                    <img src="tailwind.png">
+                </div>
+            </div>
+            <div class="project-heading">
+                <h1>Projects<h1>
+                <p>Have a look at my projects.</p>
+            </div>
+            <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="signUp.png"></div>
+      <div class="swiper-slide"><img src="login.png"></div>
+      <div class="swiper-slide"><img src="menu.png"></div>
+      <div class="swiper-slide"><img src="cart.png"></div>
+      <div class="swiper-slide"><img src="weatherpng.png"></div>
+      <div class="swiper-slide"><img src="todo.png"></div>
+      <div class="swiper-slide"><img src="passoword.png"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
+  <!-- Contact Me Section -->
+   <section id="Contact Me" class="contact-page">
+    <div class="contact-heading">
+                <h1>Contact Me</h1>
+                <p>Cultivating Connections: Reach out and connect with me.</p>
+            </div>
+    <form class="formData" id="form">
+        <div class="container">
+      <div class="input-field">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name" />
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Enter your Email" />
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+   </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
